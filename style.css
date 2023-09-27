@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  background-color: #f1efc8;
+  margin: 0;
+}
+
+.container {
+  padding: 10vh 15vw 8vh 15vw;
+  position: relative;
+}
+
+h1,
+th {
+  font-family: "Shrikhand", cursive;
+  color: #0f4415;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+div p:first-of-type {
+  margin-bottom: 2vh;
+}
+
+p,
+td {
+  font-family: "EB Garamond", serif;
+  color: #0f4415;
+  padding: 2%;
+  font-size: 1.2em;
+}
+
+table {
+  border-collapse: separate;
+  border: 2px solid #0f4415;
+  border-radius: 10px;
+}
+
+td,
+th {
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+}
+
+th {
+  border-top: none;
+}
+
+td:first-child,
+th:first-child {
+  border-left: none;
+}
+
+marquee {
+  margin-bottom: 8vh;
+}
+
+img {
+  position: absolute;
+  background-color: transparent;
+}
+
+img:nth-child(1) {
+  height: 20vh;
+  top: 330px;
+  left: 80px;
+}
+
+img:nth-child(2) {
+  height: 25vh;
+  top: 1350px;
+  left: 1170px;
+}
+
+img:nth-child(3) {
+  height: 25vh;
+  top: 1220px;
+  left: 70px;
+}
+
+img:nth-child(4) {
+  height: 20vh;
+  top: 960px;
+  left: 1185px;
+}
+
+img:nth-child(5) {
+  height: 20vh;
+  top: 610px;
+  left: 1170px;
+}
+
+img:nth-child(6) {
+  height: 28vh;
+  top: 800px;
+  left: 55px;
+}
